@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Miernik's Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/xuc0kjs.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xuc0kjs.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b62bdd24b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- DESKTOP MENU -->
+    <nav class="mainNav wrapper">
+
+        <ul class="mainMenu" data-aos="fade-down" data-aos-duration="700">
+            <li><a href="#aboutSection">About</a></li>
+            <li><a href="#skillsSection">Skills</a></li>
+            <li><a href="#portfolioSection">Portfolio</a></li>
+            <li><a href="#contactSection">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- /DESKTOP MENU -->
+
+
+    <!-- MOBILE MENU (screens 768px and below) -->
+    <nav class="mobileMenu wrapper">
+        <label for="toggle">
+            <button class="hamburger hamburger--collapse" aria-label="Menu" type="button" aria-controls="navigation">
+                <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+            </button>
+        </label>
+        <input type="checkbox" id="toggle" name="toggle">
+        <ul>
+            <li><a class="scroll" href="#aboutSection">About</a></li>
+            <li><a class="scroll" href="#skillsSection">Skills</a></li>
+            <li><a class="scroll" href="#portfolioSection">Portfolio</a></li>
+            <li><a class="scroll" href="#contactSection">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- /MOBILE MENU -->
+    <!-- <header>
+        <nav class="menu wrapper">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro wrapper">
+            <label htmlFor="about">Emily Miernik</label>
+            <h2>Front-end Web Developer</h2>
+        </div>
+    </header> -->
+
+    <!-- HOME -->
+    <div class="linkUp" id="homeSection"></div>
+    <header id="home">
+        <div class="wrapper" data-aos="fade-up" data-aos-duration="700">
+            <h1>Emily Miernik</h1>
+            <h2>Front-end Developer</h2>
+        </div>
+    </header>
+    <!-- /HOME -->
+
+
+    <section class="aboutSection wrapper">
+        <div class="aboutContent">
+            <img src="assets/headshot.png" alt="Headshot of Emily Miernik">
+            <p>
+                I'm a front-end developer from Toronto with a history of creating meaningful products for users and
+                clients.
+                My background as a business owner helps me successfully
+                guide
+                users and clients through the decision making process. My previous experience as a content migrator
+                allows me
+                to operate and thrive in an agile work culture held in a virtual environment.
+                When I’m not coding, you’ll find me writing poetry, socializing or dancing.
+            </p>
+        </div>
+        <div class="resume">
+            <a herf="assets/Emily-Miernik-CV.pdf">📄 Emily's 'CV</a>
+        </div>
+    </section>
+
+    <section class="skillSection wrapper">
+        <h3>Skills</h3>
+
+        <ul class="skillIcons wrapper">
+            <li>
+                <span class="sr-only">JavaScript icon</span>
+                <i class="fab fa-js-square" aria-hidden="true"></i>
+                <p>JavaScript</p>
+            </li>
+            <li>
+                <span class="sr-only">React icon</span>
+                <i class="fab fa-react" aria-hidden="true"></i>
+                <p>React</p>
+            </li>
+            <li>
+                <span class="sr-only">HTML5 icon</span>
+                <i class="fab fa-html5" aria-hidden="true"></i>
+                <p>HTML5</p>
+            </li>
+            <li>
+                <span class="sr-only">CSS3 icon</span>
+                <i class="fab fa-css3" aria-hidden="true"></i>
+                <p>CSS3</p>
+            </li>
+            <li>
+                <span class="sr-only">SASS icon</span>
+                <i class="fab fa-sass" aria-hidden="true"></i>
+                <p>SASS</p>
+            </li>
+            <li>
+                <span class="sr-only">Accessibility icon</span>
+                <i class="fas fa-universal-access" aria-hidden="true"></i>
+                <p>Accessibility</p>
+            </li>
+            <span class="sr-only">GitHub icon</span>
+            <li>
+                <i class="fab fa-github" aria-hidden="true"></i>
+                <p>GitHub</p>
+            </li>
+            <li>
+                <span class="sr-only">Git icon</span>
+                <i class="fab fa-git-alt" aria-hidden="true"></i>
+                <p>Git</p>
+            </li>
+            <li>
+                <span class="sr-only">Pair-programming icon</span>
+                <i class="far fa-handshake" aria-hidden="true"></i>
+                <p>Paired-programming</p>
+            </li>
+            <li>
+                <span class="sr-only">REST API icon</span>
+                <i class="fas fa-sitemap"></i>
+                <p>REST API</p>
+            </li>
+            <li>
+                <span class="sr-only">REST API icon</span>
+                <i class="fab fa-jira"></i>
+                <p>Jira</p>
+            </li>
+            <li>
+                <span class="sr-only">REST API icon</span>
+                <i class="fab fa-figma"></i>
+                <p>Figma</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolioSection wrapper">
+        <span>
+            <h3>Portfolio</h3>
+        </span>
+        <div class="portfolioFlex wrapper">
+            <div class="textContainer wrapper">
+                <h4>Out of Context</h4>
+                <h5>React | Two REST API's | SASS</h5>
+                <p>Need a movie plot...without the words? Search any movie name and our app will show you exceptional
+                    GIFs that best describe it!
+                </p>
+                <a href="https://focused-varahamihira-abf5da.netlify.app">Live site</a>
+                <span class="divide">|</span>
+                <a href="https://github.com/dearJuno/outofContext">GitHub</a>
+            </div>
+            <div class="imgContainer">
+                <img src="assets/outofContext.png" alt="Desktop version of Emily Miernik's Out of Context project">
+            </div>
+        </div>
+
+        <div class="portfolioFlex">
+            <div class="imgContainer wrapper">
+                <img src="assets/pantry.png" alt="Desktop version of Emily Miernik's Our Pantry project">
+            </div>
+            <div class="textContainer">
+                <h4>Our Pantry</h4>
+                <h5>Javascript | REST API</h5>
+                <p>Not sure what to cook with those miscellaneous items in your fridge or pantry? Our recipe generator
+                    has got you covered!
+                </p>
+                <a href="https://pantry-project.netlify.app/">Live site </a>
+                <span class="divide">|</span>
+                <a href="https://github.com/John-Baloran-Emily-Miernik-Project2/john-baloran-emily-miernik-project-two">
+                    GitHub</a>
+            </div>
+
+        </div>
+
+        <div class="portfolioFlex">
+            <div class="textContainer">
+                <h4>Pocket Sound</h4>
+                <h5>React | Web Audio API</h5>
+                <p> Pocket Sound is an application that allows the user to learn about sound through experimenting with
+                    frequency, wavelengths and types of filters.
+                </p>
+                <a href="https://pocketsound.netlify.app/">Live site </a>
+                <span class="divide">|</span>
+                <a href="https://github.com/emilymiernik/sound-pocket "> GitHub </a>
+            </div>
+            <div class="imgContainer">
+                <img src="assets/PocketSound.png" alt="Desktop version of Emily Miernik's PocketSound project">
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <h3>Contact</h3>
+        <div class="contactText">
+            <p> Would love to chat! We can chat about my projects, your favourite music genre or anything else that has
+                what
+                caught your interest in my portfolio. </p>
+        </div>
+
+
+
+        <ul class="contactIcons">
+            <li>
+                <span class="sr-only">Email icon</span>
+                <a herf=""><i class="fas fa-envelope-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <span class="sr-only"> LinkedInicon</span>
+                <a herf="https://www.linkedin.com/in/emily-miernik-a4a344115/"><i class="fab fa-linkedin"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <span class="sr-only">GitHub icon</span>
+                <a herf="https://github.com/emilymiernik"><i class="fab fa-github-square" aria-hidden="true"></i> </a>
+            </li>
+            <li>
+                <span class="sr-only">Twitter icon</span>
+                <a herf="https://twitter.com/Emily_Miernik"> <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+    <footer>
+        <div class="wrapper">
+            <p>Created by Emily Miernik</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
